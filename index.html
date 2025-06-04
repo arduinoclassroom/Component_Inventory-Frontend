@@ -716,7 +716,7 @@
         // Fetch initial data
         async function fetchData() {
             try {
-                const response = await fetch('https://component-inventory-wz3z.vercel.app/api/data');
+                const response = await fetch('https://component-inventory-wz3z-6pgghiiko-arduinoclassrooms-projects.vercel.app/api/data');
                 const data = await response.json();
                 componentData = data;
                 updateTable();
@@ -779,7 +779,7 @@
             };
             
             try {
-                const response = await fetch('https://component-inventory-wz3z.vercel.app/api/data', {
+                const response = await fetch('https://component-inventory-wz3z-6pgghiiko-arduinoclassrooms-projects.vercel.app/api/data', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
